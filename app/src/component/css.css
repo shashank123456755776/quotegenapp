@@ -1,0 +1,21 @@
+
+.app1{
+     display: flex;
+     /* By default flex direction set the children horizonatally but we 
+     want to set it vertically we can use flex direction  */
+     flex-direction: column; /* Stack elements vertically */
+     /* here flex direction colums means how the children of container align  */
+     align-items: center; /* Center horizontally */
+     background-color: aquamarine;}
+
+.app2{
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: palegreen;
+     height: 40px;
+     width: 600px;
+      color: black;
+      margin-left: 360px;
+}
